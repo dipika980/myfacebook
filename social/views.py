@@ -1,11 +1,11 @@
-from urllib.robotparser import RequestRate
+
 from django.shortcuts import render,redirect
 from django.contrib.auth import authenticate,login,logout
 
 from django.contrib.auth.models import User
 
 from  django.contrib.auth.decorators import login_required
-from matplotlib.style import context
+
 
 from.models import Userpost
 # Create your views here.
